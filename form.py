@@ -42,12 +42,12 @@ class Ui_Form(object):
                         os.mkdir(istikamet)
                     except:
                         print("var olan dosya")
-                    d, okbabba=QInputDialog.getText(None,"Ne Şifresi ?","Lütfen ne şifresi olduğunu giriniz.")
-                    if d != "":
+                    isim, boolean =QInputDialog.getText(None,"Ne Şifresi ?","Lütfen ne şifresi olduğunu giriniz.")
+                    if isim != "":
                         dosya_yolu = istikamet + "\Kayıtlı Parolalar.txt"
                         dosya = open(dosya_yolu, "a")
                         an = datetime.datetime.today()
-                        toplam = "{}/{}/{} | {}:{} | {} parolası: ".format(an.year, an.month, an.day, an.hour, an.minute,d)
+                        toplam = "{}/{}/{} | {}:{} | {} parolası: ".format(an.year, an.month, an.day, an.hour, an.minute,isim)
                         yazi = toplam + str(item.text()) + "\n"
                         dosya.write(yazi)
 
