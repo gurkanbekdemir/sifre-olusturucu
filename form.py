@@ -115,23 +115,7 @@ class Ui_Form(object):
         Form.setObjectName("Güçlü Şifre Oluşturucu")
         Form.resize(299, 259)
         Form.setFixedSize(299, 259)
-        self.medium_sifreler = ['RzW6F0Xm', 'qmjiVOFh', '83dPuKrk', 'q2ZrIt4j', 'uScj8Zct', 'QSvpz0Y4', '3TDiIslR',
-                                '19lRJCi4', 's22yi7pW', 'CDaJWfpW', 'USkBMe2R', 'iwbAIKRW', 'Vu60LRBJ', 'y4c72lZS',
-                                'TEgK06gp', 'EqDjUyy2', '3VZD8O1p', 'dlSm50Bc', '1yy0WvhK', '7H2keW3Q', 'U14QiZyj',
-                                'FyEmW0f4', 'DIpsU149', 'hnBqUA96', 'aQnPDiy8', '86KcWWJH', 'SDtit1Nt', 'dQw5uxGb',
-                                'Wa4JTdE4', 'MmvQWVeo', 'qHUP4jkD', '700jj8OQ', '0TcrxpTZ', 'Kro4McZH', '6SRAGpun',
-                                'h9faYk4M', 'KynRUmdB', 'GnE6kIps', 'vJsZ8ctr', 'RqQukycw', 'u3fS61NY', 'SWeTGbQX',
-                                'OOIcoYn5', 'UhyTXLrF', 'ftxpGcxg', 'LJbn0Tez', 'PmTAiVdl', 'uzVl3Wi5', 'dJHjrJj7',
-                                'KDaLti7a', 'k8giLrBt', 'auef3i07', 'Vi5sIcbf', 'ttC92Gvu', '1KIIdadK', '7LyuX0WT',
-                                'YMFKhpTx', 'VkYEjJPC', '2ii8XGPR', 'HANKNQVe', 'UsUD7Hpx', 'qZ56MK7f', 'PAKSve1r',
-                                '52PBOMRN', 'UKi90MEO', 'p0bpajM7', 'YaROF7ww', 'wfvxbTzR', 'ckJ7jfrk', 'piZ4jciu',
-                                'sasThACV', '8wod5jH3', 'FlUafFs7', '9jaHFGPn', 'VBEUrDhL', 'VfmYG7gX', 'ylxoRikV',
-                                'HwmWOJ1C', 'sAmgcQfa', 'cS2SINUw', '1cuzrGHH', 'VzPHYyXR', 'uDf6a799', 'pr7IVdV7',
-                                'jCa3LMU1', 'izwweawH', 'hBoopHCk', 'fV5J3kGZ', 'k9naJQTf', 'Zsirxk5z', 'X5inu90U',
-                                'AoKk5AWe', 'AeBxjuuN', '6s1Wdcfh', 'nijZrViF', 'TYTu7RKB', 'Ymd0t4FS', 'UnwScLpe',
-                                '2yS655ZI', 'tRMeD0pL', 'dm4QlVXH', '902iqftp', 'iQ5bbYcT', '3eAaP73d', 'oAPOTHZn',
-                                'IPEwjyiR', 'svbR7yqD', 'dyhz6jHO', 'qKt7p4KJ', '0Uf0EBv6', 'IQK8e9fz', 'I0DJKZED',
-                                'DxNpD2rV', 'M21sOq00', 'KoCzjIhr']
+        self.medium_sifreler = []
         self.guc = ""
         self.guclu_sifre = ""
         self.orta_sifre = ""
